@@ -1,0 +1,1 @@
+#define odd(x) ((x) & 1)
