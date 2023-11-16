@@ -4,15 +4,27 @@
     <Filter Include="Main">
       <UniqueIdentifier>{758a8c3e-3a48-424d-b854-0b441f0f14f4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="HW">
+      <UniqueIdentifier>{f45aaf99-2267-4951-9141-dfc0fce715eb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Main</Filter>
     </ClCompile>
+    <ClCompile Include="function.cpp">
+      <Filter>HW</Filter>
+    </ClCompile>
+    <ClCompile Include="prog.cpp">
+      <Filter>HW</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lib.h">
       <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>HW</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
